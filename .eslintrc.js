@@ -13,6 +13,7 @@ module.exports = {
     'plugin:react/jsx-runtime',
     'plugin:react/recommended',
   ],
+  // indent: ['error', 4, { SwitchCase: 1 }],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,

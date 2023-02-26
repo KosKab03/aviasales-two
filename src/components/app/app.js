@@ -6,7 +6,6 @@ import HeaderMenu from '../header-menu';
 import TicketList from '../ticket-list';
 import Loader from '../loader';
 import { ErrorAlerts } from '../alerts/alerts';
-
 import getTickets from '../../store/actions/actions-get-tickets';
 
 import React, { useEffect } from 'react';
