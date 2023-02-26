@@ -13,7 +13,6 @@ module.exports = {
     'plugin:react/jsx-runtime',
     'plugin:react/recommended',
   ],
-  // indent: ['error', 4, { SwitchCase: 1 }],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -34,7 +33,6 @@ module.exports = {
     'linebreak-style': [0, 'unix'],
     quotes: ['error', 'single'],
     'import/no-unresolved': [2, { caseSensitive: false }],
-    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'no-plusplus': 'off',
     'import/order': [
       'error',
