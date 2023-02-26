@@ -1,4 +1,3 @@
-import 'antd/dist/reset.css';
 import classes from './app.module.scss';
 
 import SidebarMenu from '../sidebar-menu';
