@@ -47,7 +47,7 @@ function SidebarMenu({ filter, tickets, toggle, addAll, delAll, addFilterTickets
   }
 
   return (
-    <div className="sidebar-menu">
+    <nav className="sidebar-menu">
       <h2>Количество пересадок</h2>
       <Checkbox
         checked={stateCheckAll}
@@ -65,7 +65,7 @@ function SidebarMenu({ filter, tickets, toggle, addAll, delAll, addFilterTickets
           onCheckedList(e);
         }}
       />
-    </div>
+    </nav>
   );
 }
 

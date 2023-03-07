@@ -9,7 +9,7 @@ function Ticket({ item }) {
   const newSegments = ticketDataConversion(segments);
 
   return (
-    <li className={classTicket.ticket}>
+    <article className={classTicket.ticket}>
       <header className={classTicket.header}>
         {`${new Intl.NumberFormat('ru-RU').format(price)} ₽`}
         <img alt={`логотип авиакомпании с кодом iata ${carrier}`} src={`https://pics.avs.io/99/36/${carrier}.png`} />
@@ -25,24 +25,8 @@ function Ticket({ item }) {
             <li>{el.cityStops}</li>
           </ul>
         ))}
-        {/* <ul className={classTicket.info}>
-          <li>{there.origin}</li>
-          <li>В пути</li>
-          <li>2 пересадки</li>
-          <li>{there.date}</li>
-          <li>{there.duration}</li>
-          <li>{there.stops}</li>
-        </ul>
-        <ul className={classTicket.info}>
-          <li>{back.origin}</li>
-          <li>В пути</li>
-          <li>2 пересадки</li>
-          <li>{back.date}</li>
-          <li>{back.duration}</li>
-          <li>{back.stops}</li>
-        </ul> */}
       </aside>
-    </li>
+    </article>
   );
 }
 

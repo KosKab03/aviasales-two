@@ -34,7 +34,7 @@ function TicketList({ filterTickets, numberVisibleTickets, found, setNumber }) {
 
   return (
     <>
-      <ul className={classes.list}>{ticketList}</ul>
+      <section className={classes.list}>{ticketList}</section>
       {found ? (
         <div>
           <ShowMoreBtn />
